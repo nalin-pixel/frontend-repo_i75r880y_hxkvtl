@@ -8,7 +8,6 @@ export default function Layout({ children }) {
     { href: '#despre', label: 'Despre noi' },
     { href: '#servicii', label: 'Servicii' },
     { href: '#oferte', label: 'Oferte' },
-    { href: '#galerie', label: 'Galerie' },
     { href: '#recenzii', label: 'Recenzii' },
     { href: '#programari', label: 'Programări' },
     { href: '#contact', label: 'Contact' },

@@ -252,18 +252,6 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section id="galerie">
-        <h2 className="text-3xl md:text-4xl font-semibold text-rose-900">Galerie foto</h2>
-        <p className="mt-2 text-rose-800/80">Lucrări și atmosfera din salon.</p>
-        <div className="mt-6 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {["photo-1556228453-efd1b56f0b87","photo-1519669556878-63bdad8a1506","photo-1600959907703-125ba1374a12","photo-1522335789203-aabd1fc54bc9","photo-1519741497674-611481863552","photo-1516979187457-637abb4f9353"].map((id, i) => (
-            <div key={i} className="aspect-[4/3] overflow-hidden rounded-2xl border border-rose-100">
-              <img className="w-full h-full object-cover hover:scale-105 transition" src={`https://images.unsplash.com/${id}?q=80&w=1200&auto=format&fit=crop`} alt="Lady Salon" />
-            </div>
-          ))}
-        </div>
-      </Section>
-
       <Section id="recenzii">
         <h2 className="text-3xl md:text-4xl font-semibold text-rose-900 mb-6">Recenzii</h2>
         <Reviews />
